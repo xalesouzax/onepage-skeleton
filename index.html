@@ -1,34 +1,206 @@
 <!DOCTYPE html>
 
-aaaaaa
-bbbbbb
-
 <html>
 
 <head>
 
 	<meta charset="utf-8">
 
-	<title>One Page Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/normalize.css">
+
+	<link rel="stylesheet" href="css/animate.css">
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"> -->
+
+	<title>HTML5 / CSS</title>
 
 </head>
 
 <body>
 
-	<a href=""> Lorem Ipsum </a>
+	<nav class="clearfix">
 
-		<nav>
+		<a href="" id="logo" class="animated fadeInDown"> Lorem Ipsum </a>
 
-			<ul>
+		<ul>
+			
+			<li> <a href="#sobre"> SOBRE </a></li>
+			<li> <a href="#servico"> SERVIÇO </a></li>
+			<li> <a href="#portfolio"> PORTFOLIO </a></li>
+			<li> <a href="#contato"> CONTATO </a></li>
+
+		</ul>
+
+	</nav>
+
+	<div id="header">
+
+		<h1> LOREM IPSUM </h1>
+
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit </p>
+
+		<a href="#portfolio" class="button button_purple"> VER MAIS </a>
+
+	</div>
+
+	<div id="sobre">
+
+		<h2> SOBRE </h2>
+
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit </p>
+
+			<a href="#contato" class="button button_white"> ENTRE EM CONTATO </a>
+
+	</div>
+
+	<div id="servico">
+
+		<h2> SERVIÇO </h2>
+
+		<section>
+
+			<img src="http://image.flaticon.com/icons/svg/149/149295.svg" width="70" title="icon1">
+
+			<h3> Fácil Integração </h3>
+
+			<p> Integra facilmente a qualquer gerenciador de conteúdo </p>
+
+		</section>	
+
+		<section>
+			
+			<img src="http://image.flaticon.com/icons/svg/149/149201.svg" width="70" title="icon2">
+
+			<h3> Hospedagem Moderna </h3>
+
+			<p> Não deixe seus clientes na mão. Tenha o seu site 24h no ar. </p>
+
+		</section>
+		
+		<section>
+			
+			<img src="http://image.flaticon.com/icons/svg/115/115791.svg" width="70" title="icon3">
+
+			<h3> Melhores práticas </h3>
+
+			<p> Código legível, desenvolvido com as melhores práticas </p>
+
+		</section>
 				
-				<li> <a href="#about"> About </a></li>
-				<li> <a href="#servces"> Services </a></li>
-				<li> <a href="#portfolio"> Portfolio </a></li>
-				<li> <a href="#contact"> Contact </a></li>
+		<section>
+			
+			<img src="http://image.flaticon.com/icons/svg/149/149217.svg" width="70" title="icon4">
 
-			</ul>
+			<h3> Feito com Amor </h3>
 
-		</nav>
+			<p> É melhor fazer seus site com amor hoje em dia! </p>
+
+		</section>
+
+	</div>
+
+	<div id="portfolio">
+
+			<h2> PORTFÓLIO </h2>
+
+			<a href="#"><p>image title</p><img src="http://lorempixel.com/1500/800" title="image1"></a>
+			<a href="#"><p>image title</p><img src="http://lorempixel.com/1500/800" title="image2"></a>
+			<a href="#"><p>image title</p><img src="http://lorempixel.com/1500/800" title="image3"></a>
+			<a href="#"><p>image title</p><img src="http://lorempixel.com/1500/800" title="image4"></a>
+			<a href="#"><p>image title</p><img src="http://lorempixel.com/1500/800" title="image5"></a>
+			<a href="#"><p>image title</p><img src="http://lorempixel.com/1500/800" title="image6"></a>
+
+	</div>
+
+	<div id="contato">
+		
+		<h2> CONTATO </h2>
+
+		<p> Entre em contato conosco </p>
+
+		<section>
+			
+			<img src="http://image.flaticon.com/icons/svg/126/126509.svg" width="70" title="icon5">
+
+			<p><a href="tel:(xx)55555555"> (xx) 5555 5555 </a></p>
+
+		</section>
+
+		<section>
+			
+			<img src="http://image.flaticon.com/icons/svg/126/126501.svg" width="70" title="icon6">
+
+			<p><a href="mailto:email@contato.com"> email@contato.com </a></p>
+
+		</section>		
+
+	</div>
+
+	<form>
+			
+			<label>Name</label><br>
+			<input placeholder="Type your name" type="text" name="name"><br><br>
+
+			<label>E-mail</label><br>
+			<input placeholder="Type your e-mail" type="email" name="email" required><br><br>
+
+			<label>Phone</label><br>
+			<input placeholder="(xx) xxxxx-xxxx" type="tel" name="phone"><br><br>
+
+	</form>
+
+	<div id="terms_wrapper">
+
+		<h2 id="terms_title"> Terms and Conditions </h2>
+
+		<section id="terms" class="overflow">
+
+			<p>
+		
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+			</p>
+
+		</section>
+
+		<button id="accept_button"> I accept </button>
+
+
+	</div>
 
 </body>
 
