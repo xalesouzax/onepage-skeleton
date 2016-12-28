@@ -4,7 +4,9 @@
 
 body {
 
+	font-family: 'Open Sans', sans-serif;
 	-webkit-font-smoothing: antialiased;
+	color: #404040;
 	
 }
 
@@ -14,7 +16,7 @@ nav {
 
 	position: fixed;
 	width: 100%;
-	padding: 40px;
+	padding: 30px;
 	top: 0;
 
 }
@@ -41,5 +43,62 @@ nav ul li {
 
 	display: inline-block;
 	margin-left: 50px;
+	text-transform: uppercase;
+
+}
+
+nav ul li a:hover {
+
+	color: grey;
+
+}
+
+.button {
+
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 10px 30px 10px 30px;
+	border-radius: 5px;
+	margin-top: 15px;
+
+}
+
+.button1 {
+
+	background-color: white;
+	color: grey;
+
+}
+
+#section1 {
+
+	text-align: center;
+	padding: 350px;
+	background-color: grey;
+
+}
+
+#section2 {
+
+	text-align: center;
+
+}
+
+#section3 {
+
+	text-align: center;
+
+}
+
+#section4 {
+
+	text-align: center;
+
+}
+
+#section5 {
+
+	text-align: center;
 
 }
