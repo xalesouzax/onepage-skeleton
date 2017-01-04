@@ -18,6 +18,7 @@ nav {
 	width: 100%;
 	padding: 30px;
 	top: 0;
+	z-index: 100;
 
 }
 
@@ -44,6 +45,7 @@ nav ul li {
 	display: inline-block;
 	margin-left: 50px;
 	text-transform: uppercase;
+	margin-top: 3px;
 
 }
 
@@ -78,6 +80,13 @@ nav ul li a:hover {
 
 }
 
+#logo {
+
+	font-family: 'Sansita One', cursive;
+	font-size: 24px;
+	font-weight: bold;
+}
+
 #section1 {
 
 	color: white;
@@ -90,7 +99,6 @@ nav ul li a:hover {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-
 
 }
 
@@ -254,3 +262,129 @@ nav ul li a:hover {
 	padding-bottom: 50px;
 
 }
+
+@media screen and (max-width: 918px) {
+
+	#section3 section {
+
+		display: block;
+		width: 100%;
+		margin-top: 30px;
+
+	}
+
+	#section3 p {
+
+		width: 65%;
+		margin: auto;
+
+	}
+
+}
+
+@media screen and (max-width: 697px) {
+
+	#section3 section {
+
+		display: block;
+		width: 100%;
+		margin-top: 30px;
+
+	}
+
+	#section3 p {
+
+		width: 65%;
+		margin: auto;
+
+	}
+
+	#logo {
+
+		text-align: center;
+		display: block;
+		margin: 0;
+		width: 100%;
+
+	}
+
+	nav ul {
+
+		text-align: center;
+		width: 100%;
+		margin: auto;
+
+	}
+
+	nav ul li {
+
+		display: block;
+		margin: 0;
+		margin-top: 20px;
+		margin-bottom: 5px;
+
+	}
+
+	#section1 {
+
+		margin-top: 200px;
+
+	}
+
+	#section1 p {
+
+		width: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
+
+	}
+
+	#section2 p {
+
+		width: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
+
+	}
+
+	#section5 {
+
+		padding-bottom: 60px;
+
+	}
+
+
+	#section5 section {
+
+		display: block;
+		margin: 0;
+		padding-top: 30px;
+		padding-bottom: 30px;
+
+	}
+
+	#section5 p {
+
+		width: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
