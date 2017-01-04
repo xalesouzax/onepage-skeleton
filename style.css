@@ -58,7 +58,7 @@ nav ul li a:hover {
 	text-decoration: none;
 	text-transform: uppercase;
 	display: inline-block;
-	padding: 10px 30px 10px 30px;
+	padding: 10px 30px 10px 30px; /*top, right, bottom, left*/
 	border-radius: 5px;
 	margin-top: 15px;
 
@@ -80,17 +80,33 @@ nav ul li a:hover {
 
 #section1 {
 
+	color: white;
 	text-align: center;
-	padding: 350px;
+	padding-top: 300px;
+	padding-bottom: 300px;
 	background-color: grey;
+
+	background-image:url(http://www.marklillyphotography.com/wp-content/uploads/2015/02/MarinHeadlands_BatterySpencer_Pano_8708_8709_Web_2500x1092_rev0.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
 
 }
 
 #section2 {
 
+	color: white;
 	text-align: center;
-	padding: 150px;
+	padding-top: 150px;
+	padding-bottom: 150px;
 	background-color: #e6e6e6;
+
+	background-image:url(https://si.wsj.net/public/resources/images/BN-PN192_0823sf_GR_20160823092206.jpg);
+	background-attachment: fixed; /*paralax effect*/
+	position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 
 }
 
@@ -148,7 +164,65 @@ nav ul li a:hover {
 #section4 img {
 
 	width: 100%;
+
+	-webkit-transition: all 1.5s ease;
+	-moz-transition: all 1.5s ease;
+	-ms-transition: all 1.5s ease;
+	-o-transition: all 1.5s ease;
+	transition: all 1.5s ease;
+
+}
+
+#section4 a:hover img {
+
+	cursor: pointer;
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
+
+	-webkit-transition: all 1.5s ease;
+	-moz-transition: all 1.5s ease;
+	-ms-transition: all 1.5s ease;
+	-o-transition: all 1.5s ease;
+	transition: all 1.5s ease;
+
+}
+
+#section4 a p {
+
+	font-size: 25px;
+	text-transform: uppercase;
+	background-color: rgba(0,0,0,0.4);
+	line-height: 25px;
+	color: white;
 	text-align: center;
+	width: 100%;
+	height: 100%;
+
+	padding: 25%;
+
+	position: absolute;
+	z-index: 2;
+	margin: 0;
+
+	opacity: 0;
+
+	-webkit-transition: all 1.5s ease;
+	-moz-transition: all 1.5s ease;
+	-ms-transition: all 1.5s ease;
+	-o-transition: all 1.5s ease;
+	transition: all 1.5s ease;
+
+}
+
+#section4 a:hover p {
+
+	opacity: 1;
+
+	-webkit-transition: all 1.5s ease;
+	-moz-transition: all 1.5s ease;
+	-ms-transition: all 1.5s ease;
+	-o-transition: all 1.5s ease;
+	transition: all 1.5s ease;
 
 }
 
